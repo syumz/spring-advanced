@@ -76,7 +76,7 @@ if (userChangePasswordRequest.getNewPassword().length() < 8 ||
 - 테스트 패키지 org.example.expert.domain.manager.service의 ManagerServiceTest 클래스에 있는 todo의_user가_null인_경우_예외가_발생한다() 테스트가 성공할 수 있도록 서비스 로직을 수정
 
 ### Lv4.
-### AOP를 활용한 API 로깅**
+**AOP를 활용한 API 로깅**
 - 어드민 사용자만 접근할 수 있는 특정 API에는 접근할 때마다 접근 로그를 기록해야 합니다.
 
 
